@@ -1,0 +1,5 @@
+token: not-set # replace this with the secret token for the name-linking service
+serverId: not-set # replace this with the server id for the name-linking service
+insecureMode: false
+enableLinking: true
+enableConnections: true

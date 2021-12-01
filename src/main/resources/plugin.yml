@@ -1,0 +1,27 @@
+name: ReplitMC
+version: ALPHA-0.1
+author: miroreo
+main: co.repl.miroreo.replitmc.App
+api-version: 1.18.1
+commands:
+  getrepl:
+    description: Get information about a repl.
+    usage: /getrepl @username/replname
+    permission: replitmc.getrepl
+    permission-message: you don't have permission to get repls! [paperplugin.getrepl]
+  
+  linkrepl:
+    description: Link a replit account
+    usage: /linkrepl
+    permission: replitmc.link
+    permission-message: You don't have permission to do that! You need §areplitmc.link§r to do that.
+  
+  replit:
+    description: Information about the plugin
+    usage: /replit
+    
+  # requestlink:
+  #   description: Request that a player link their Replit account
+  #   usage: /requestlink <player>
+  #   permission: replitmc.requestlink
+  #   permission-message: 
